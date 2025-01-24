@@ -1,0 +1,65 @@
+body{
+    font-family:sans-serif;
+
+}
+h3{
+    margin: 5px;
+
+}
+.container{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: auto;
+    padding: 1%;
+    border: solid 2px;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    margin: 8px 0;
+    border: 1px solid  #ccc;
+    border-radius: 5px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    cursor:text;
+}
+.log{
+    width: 100%;
+    padding: 15px 0;
+    margin: 10px 0;
+    background-color: rgb(28, 194, 28);
+    color: white ;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    cursor: pointer;
+}
+.log:hover{
+    opacity: 0.8;
+}
+form{
+    margin-bottom: auto;
+}
+.footer{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    border:1px #ccc;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccc;
+
+}
+.cancel{
+    padding:10px 15px;
+    background-color: rgb(255, 12, 12);
+    border: 1px ;
+    color: white;
+    cursor: pointer;
+}
+.cancel:hover{
+    opacity: 0.5;
+}
+input{
+    cursor: pointer;
+}
+
